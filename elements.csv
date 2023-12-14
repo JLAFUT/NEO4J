@@ -1,0 +1,422 @@
+"ID"	"Type"	"Name"	"Documentation"	"Specialization"
+"id-a457e2b9123f4a42883fab03d2a42b5a"	"ArchimateModel"	"Loan IT"	""	""
+"id-ccb1579de4c742648205135ad3f02b23"	"Capability"	"Analyser les dépendances entre Green et un SI "	"o Analyser les dépendances entre Green et un SI en cas de portage de la solution Green "	""
+"id-9a6368b15a024f66af43115d5d4161e0"	"Capability"	"Budget"	""	""
+"id-fe1f2ce29b03426fa49d509c24ca2a12"	"Capability"	"Disponibilité 24/7"	"Green n’est pas disponible en 24/7, pendant la nuit applicative certains batchs bloquent les accès TP en écriture et/ou en lecture, et il y a une interruption de 2h le dimanche (préciser).
+
+Globalement Green est susceptible de n’être pas accessible entre 20h30 et 2h mais cette indisponibilité est à étudier au cas par cas selon les actes (certains actes sont traités en différé).
+
+Il serait à étudier de gérer une demande pendant l’indisponibilité de green et de la traiter en différé lors de la reprise de green"	""
+"id-e1d0b0795fa24886a6884159fa13415b"	"Capability"	"Eligibilité au canal en ligne et éligibilité de l’utilisateur"	"Tous les actes ne peuvent être exécutés en ligne, certaines contraintes juridiques l’interdisent. 
+Pour pouvoir utiliser les services en ligne il faut que l’utilisateur ait un Contrat CAEL.
+Certains actes nécessitent plusieurs signataires et tous doivent avoir un CELA et être habilités à signer en ligne pour que l’acte soit éligible en ligne.
+Dans le cas des entreprises, l’utilisateur n’est pas l’emprunteur et n’est pas forcément le dirigeant de l’entreprise mais une personnes de l’entreprise qui a délégation (DAF, trésorier, …). Il est nécessaire que cette personne ait un CAEL délégué qui lui permette l‘acte.
+"	""
+"id-e821bb033e9440a1848187cefdd813cd"	"Capability"	"Expliciter les patterns"	""	""
+"id-be543e25cdf14165a8c0481284c9616a"	"Capability"	"Identification briques"	""	""
+"id-4414d16305e647b09f3eda522ad36f2e"	"Capability"	"Interruptibilité, reprise et contrôle d’éligibilité"	""	""
+"id-b859125d35d140069c3e22280f4f4d03"	"Capability"	"Orientation architecture"	""	""
+"id-788cc9b9f74b4ef8aeb2d8a97f74ec1a"	"Capability"	"Programme Backlog"	"Apports mesurables via des KPI
+Delivery régulier
+Des paliers intermédiaires qui sont « états stables »
+
+La backlog programme sera actualisée en juin 2024 @DP"	""
+"id-39ba11289d7f42f6bd80427b8b46a3f8"	"Capability"	"Roadmap"	""	""
+"id-b2daa6a3af4742959bf9facdf4834edf"	"Capability"	"Ré-urbanisation du domaine Crédit"	"Monolithique  Urbanisé et modularisé
+"	""
+"id-d548185877ba41d9ad74146f3afecd78"	"Capability"	"Selfcare client/automatisation complète"	"Il n’est pas possible ni forcément utile d’automatiser entièrement un acte de sav pour qu’il soit produit dans la foulée pour un client. L’objectif de digitaliser la relation est de fournir la demande et le résultat en ligne, un différé entre la demande et la réponse, même pour faire des traitements manuels par des collaborateurs est admissible tant que le client n’a pas à se déplacer en agence.
+"	""
+"id-f6a9b7e4668c43849395e1c6d85babc0"	"Capability"	"Stratégie Architecture"	""	""
+"id-a32b30b9e05c450a9d188a882418c276"	"Capability"	"Vision Architecture"	""	""
+"id-1039cbc6e0ed480bbf5dcada395793e5"	"CourseOfAction"	"3 objectifs"	""	""
+"id-e0ed84f0043942248804247c8f56c1ee"	"CourseOfAction"	"Backlog / Avancé"	"Traiter toutes les modernisations à forte valeur :
+Traiter les obsolescences principales. 
+Compléter les socles pour assurer l’évolutivité à long terme et maximiser la rationalisation
+Rénover tous les parcours les plus utilisés
+"	""
+"id-0f96401715be4023be79f0f819cf5b57"	"CourseOfAction"	"Backlog / Complet "	"100% à la cible définie en sept 2022
+Tous les parcours existants sont modernisés
+"	""
+"id-4a3f3ecba92949f085f71a85b38ab5aa"	"CourseOfAction"	"Backlog / Essentiel"	"Traitement les modernisations les plus urgentes pour : 
+Réaliser les rationalisations les + accessibles (ROI) et les + importantes
+Assurer la maintenabilité et l’évolutivité à moyen terme
+Rénover les parcours les plus problématiques
+"	""
+"id-b8579e918ce447d0a5dfc9a471376c69"	"CourseOfAction"	"Backlog / Initial"	"Initialisation des travaux sur la majorité des pans du SI crédit à moderniser. 
+Affirmation des modèles à suivre.
+Montée en charge du dispositif. 
+Nettoyage des fonctions inutilisées
+"	""
+"id-196154c97d8447f7b7ac38e7cdcdba14"	"CourseOfAction"	"Besoins identifiés"	""	""
+"id-0f8726bf297f425dbe1c4ece4ede8618"	"CourseOfAction"	"Cohabitation SIs (moderne / existant)"	"Comment gérer la cohabitation entre le SI modernisé et le SI existant ? (i.e. quel modèle d’architecture pour permettre une trajectoire maitrisée et éviter un big bang pour la création des nouveaux parcours ?)
+"	""
+"id-7d08b865d9fa49e7b30493b1a82cbafc"	"CourseOfAction"	"Corbeille de tâches"	"Utilisation des fonctions corbeille de tâches et développement de nouveaux écrans
+
+
+
+"	""
+"id-6e91fcdcb0de4acabb8a0101ac6c14d2"	"CourseOfAction"	"Disponiblité socles digitaux"	"S’assurer de la présence des socles digitaux (GED, Signature électronique, etc) et de leur capacité à répondre aux besoins macro identifiés
+
+"	""
+"id-7172e32943d943dc868a5ef26061f265"	"CourseOfAction"	"Distribution des taches"	"Disposer d’une corbeille de tâches transverse à l’ensemble des étapes pour les collaborateurs
+"	""
+"id-a1688d2a5bbe40e28ccd21480a427484"	"CourseOfAction"	"Désengagement GreenWeb"	"
+
+"	""
+"id-d21563f50f0541ef84d70e0017e0d154"	"CourseOfAction"	"Embarquer l'espace Client Mon Projet Immo"	"Budget 2024
+o Budget Loan'IT 2024 à 9M€ (validation en cours) = 8M€ au titre de la modernisation du SI + 1M€ au titre des projets métiers
+o Explications données sur ce l’intérêt de monter jusqu’à 10,5 M€ avec les provisions (si possible) afin de pouvoir embarquer l'espace Client Mon Projet Immo
+
+"	""
+"id-0da214dbb4c94bf88ca1f9c51ec29e79"	"CourseOfAction"	"Enjeux transverses"	"
+
+
+
+"	""
+"id-e202c71995134be5ad49590064339a7e"	"CourseOfAction"	"Espace unique"	"Disposer d’un espace personnel partagé entre le client et le conseiller dès la phase d’avant vente 
+Le hub de lancement de l’avant vente et le réceptacle des simulations sauvegardées et des projets de crédit en cours 
+"	""
+"id-262d726b15304c7f9c5ca4bb5d24831b"	"CourseOfAction"	"Exposer"	"réarchitecturer l’exposition des moteurs Green et SimulCA notammen"	""
+"id-98076a470b254b1ab34514b3b45cd231"	"CourseOfAction"	"Externalisation du SI Crédits"	"o Envisager une réutilisation pour d'autres solutions - exemple dans le cadre éventuel d'une externalisation du SI Crédits
+o Bien garder les principes de conserver dans Green l'exhaustivité des données essentielles au fonctionnement d'un SI Crédits externalisé.
+"	""
+"id-d3adefd8975d415fb10224906786dc16"	"CourseOfAction"	"Gestion des la navigation écrans"	""	""
+"id-70886073747447d2a31496a124c47628"	"CourseOfAction"	"Habilitation des nouveaux parcours"	""	""
+"id-ab77a116c6f741f8a6b9dcc46334be29"	"CourseOfAction"	"Interopérabilité et isolation des fonctions de Green (instruction)"	"Intérêt de conserver ou non tout ou partie de Green versus effort de réutilisation et d’APIsation des programmes existants
+Gestion de l’interopérabilité entre le monde Open et Host (synchrone ou évènement)
+
+
+
+"	""
+"id-25fe08eea41d45329b5b584c56b0a56d"	"CourseOfAction"	"Loan IT"	"Le programme de modernisation du SI crédits Loan IT, doit réécrire progressivement l’ensemble des parcours et réarchitecturer l’exposition des moteurs Green et SimulCA notamment.
+"	""
+"id-de9c3f6c81fc4ce4ba6ac24d2d24e8d8"	"CourseOfAction"	"Modernisation"	""	""
+"id-36a0cc5ee2a84a8e94883e83f3127d68"	"CourseOfAction"	"Navigation"	"Piloter un parcours modulaire, qui permet la navigation flexible entre les différents produits et écrans
+Continuité et cohérence sur le parcours de bout en bout (écrans et données)
+Permettre le pilotage / proposition de ventes croisées 
+"	""
+"id-33ae95b5bf2d431f92f2bf95242cc2c9"	"CourseOfAction"	"Niveau de désengagement de GreenWeb (instruction)"	"Désengagement des écrans et de la logique de processus portés par ces derniers dans Green
+
+
+
+"	""
+"id-3db407ca799641139c6acebc2fceb76a"	"CourseOfAction"	"Orientations"	""	""
+"id-4f29c68cdcf7436e895128b830d435bd"	"CourseOfAction"	"Outil BPM"	"Utilisation d’un assemblage de solution du marché
+
+
+"	""
+"id-a8b3b67db390466fbe17c3cb69f3785f"	"CourseOfAction"	"Pilotage du processus"	"
+
+"	""
+"id-f80f29372ff14a15a0a879f196c9bcfb"	"CourseOfAction"	"Pilotage opérationnel / projet"	"Piloter dynamiquement l’enchainement et la complétion des étapes (refonte de l’écran des feux)
+"	""
+"id-0ea1034d5d034dd2a1d1d9d9e3dea05e"	"CourseOfAction"	"SelfCare"	"Selfcare client/automatisation complète : 
+Il n’est pas possible ni forcément utile d’automatiser entièrement un acte de sav pour qu’il soit produit dans la foulée pour un client. L’objectif de digitaliser la relation est de fournir la demande et le résultat en ligne, un différé entre la demande et la réponse, même pour faire des traitements manuels par des collaborateurs est admissible tant que le client n’a pas à se déplacer en agence.
+
+Eligibilité au canal en ligne et éligibilité de l’utilisateur : 
+Tous les actes ne peuvent être exécutés en ligne, certaines contraintes juridiques l’interdisent. 
+Pour pouvoir utiliser les services en ligne il faut que l’utilisateur ait un Contrat CAEL.
+Certains actes nécessitent plusieurs signataires et tous doivent avoir un CELA et être habilités à signer en ligne pour que l’acte soit éligible en ligne.
+Dans le cas des entreprises, l’utilisateur n’est pas l’emprunteur et n’est pas forcément le dirigeant de l’entreprise mais une personnes de l’entreprise qui a délégation (DAF, trésorier, …). Il est nécessaire que cette personne ait un CAEL délégué qui lui permette l‘acte.
+
+Interruptibilité, reprise et contrôle d’éligibilité : 
+En agence un acte de SAV est souvent réalisé dans une unité de temps relativement courte, si il y a emprunteur et co-emprunteur, le conseiller fait venir tout le monde et tout se réalise lors du rendez-vous. En selfcare ce n’est pas possible, cela implique de permettre des interruptions et des reprises plus tard. Pendant ce délai le crédit la situation du crédit et du client ont pu bouger, ce qui nécessite de recontrôler l’éligibilité régulièrement.
+
+Disponibilité 24/7 : 
+Green n’est pas disponible en 24/7, pendant la nuit applicative certains batchs bloquent les accès TP en écriture et/ou en lecture, et il y a une interruption de 2h le dimanche (préciser).
+
+Globalement Green est susceptible de n’être pas accessible entre 20h30 et 2h mais cette indisponibilité est à étudier au cas par cas selon les actes (certains actes sont traités en différé).
+
+Il serait à étudier de gérer une demande pendant l’indisponibilité de green et de la traiter en différé lors de la reprise de green.
+"	""
+"id-7f49648ce3704db685f4642476d4ac40"	"CourseOfAction"	"Socle Données"	"
+"	""
+"id-07665a1f94f744ab83c04932fd3c76d3"	"CourseOfAction"	"Solution de pilotage du processus"	"Mise en œuvre du processus au niveau d’un outil type case management / BPM
+Granularité et la responsabilité de pilotage des étapes
+Gestion du statut / état des étapes des workflow et case
+Reprise de la mécanique de l’écran de synthèse crédit (i.e. écran des feux)
+
+
+"	""
+"id-c286e3f87329434d83409461be10b6ae"	"CourseOfAction"	"Technologie des écrans"	"Utilisation du pattern IHM light pour la mise en œuvre des nouveaux écrans
+Utilisation des patterns de coopération existant pour le passage de contexte, l’intégration dans les portails, le SSO, …
+"	""
+"id-f6a2fafa3e31429eaeb85ea1d1040f69"	"CourseOfAction"	"Timeline"	"Disposer d’une timeline permettant d’afficher les informations déclarées par le client sur le projet en cours (spécifique ou non au client)
+Permettre le suivi de l’avancée d’un projet avec une vision différenciée pour le client et le collaborateur
+"	""
+"id-e3f08ef485644bb596442e73b4142442"	"CourseOfAction"	"Urbanisation des outils de simulation"	"Réutilisation des parcours en cours de développement sur le projet Eas’Immo 
+Modèle urbanisation et apisation des moteurs de calcul
+
+"	""
+"id-f9325e9ac4e64bfca3bff96f513cd164"	"CourseOfAction"	"Workflow client et collaborateur"	"Disposer d’un socle permettant la mise en œuvre et le pilotage de workflow partagé entre le client, le collaborateur et le back office
+Gérer l’omni-canalité dans les différents workflows
+
+"	""
+"id-ae4e3dd4b3bc48e889c88ec09eb32a85"	"Resource"	"Framework BIAN"	""	""
+"id-315fa84f36534d728f2af12cc712b473"	"Resource"	"Jira"	""	""
+"id-e7664a68effe418bb10528d3cf233334"	"Resource"	"PP Crédits"	""	""
+"id-176f304d200c4b83bb8950546543cb1f"	"Resource"	"Service Architecture"	""	""
+"id-d5c69e9c18fd4412be71eb243f928b00"	"Resource"	"SI Crédit"	""	""
+"id-d5e01fdd04c543df8889feef5f37846e"	"ValueStream"	"Formaliser la valeur ajoutée de la modernisation SImulCA pour le PU et les CRs "	"o Formaliser la valeur ajouter de la modernisation SImulCA pour le PU et les CRs => PA Stéphanie"	""
+"id-ec1e59072d34447292be522e635706aa"	"ValueStream"	"Nettoyage des composants"	"Nettoyage des composants : Priorisé la mise en œuvre de la procédure de suppression des composants => PA SDAS"	""
+"id-7b5fbf38eaba461d8053fc0f42436eac"	"BusinessActor"	"Architectes"	""	""
+"id-d251946d11cf4fb2a6fbba19a9346461"	"BusinessActor"	"Pilote modernisation"	"Piloter l’impact de la modernisation et leviers d’accélération
+Doc à valider avec Coach
+
+"	""
+"id-d0c62b331dee4b78847fdf9625698fa8"	"BusinessActor"	"Squads"	""	""
+"id-55e81ee3c96d4294aa1e9258cb56ffa5"	"BusinessActor"	"Utilisateurs"	""	""
+"id-a40fa21eba6b4f2799cf33a84b3de683"	"BusinessCollaboration"	"Backlog Programme "	""	""
+"id-1651fc22944b4a4a8a7d2ae61286dbf3"	"BusinessCollaboration"	"Backlog Team"	""	""
+"id-c90086538bc14c378231fed73ae12a2b"	"BusinessCollaboration"	"Features"	""	""
+"id-4a179bec81724a59b414173e7d2df016"	"BusinessCollaboration"	"Framework de fonctions utilisables"	""	""
+"id-74609488e3e5459691cb60a1b8c7429d"	"BusinessCollaboration"	"Kanban"	""	""
+"id-1dc5fbbf79f54cc6a323a83d57d61aab"	"BusinessCollaboration"	"Rituels"	"=""01 - Follow-up
+02 - Workshop
+03 - Actualité Loan'it
+04 - Faits marquants
+05 - Business Epic Review
+06 - Product Days
+07 - Retrospectives"""	""
+"id-8f450c8095304e6fa62ac714612b4857"	"BusinessFunction"	"Fonctions élémentaires"	"Les objets métiers et leurs fonction élémentaires sont les éléments les plus stables du SI. 
+Les fonctions élémentaires permettent de manipuler l’objet métier"	""
+"id-93f150016773475eabd1d88e02adf0f6"	"BusinessInteraction"	"Présentation"	""	""
+"id-aa993b667db24fff83d11b0eb7f4b555"	"BusinessInterface"	"Exposition d’un objet métier mainframe"	""	""
+"id-2085c3395e354edca56f6fdfdcbd522c"	"BusinessObject"	"Crédit en gestion (OM)"	""	""
+"id-9709c5f232cf4735a87d43c3dc8ec9fa"	"BusinessObject"	"Crédit générique"	""	""
+"id-065f3a7c0802460d96efb1c959a1017d"	"BusinessObject"	"Fonctions métier"	"Les objets métiers et leurs fonctions élémentaires sont les éléments les plus stables du SI. "	""
+"id-39ec0debf170436f93151ff04fb4f5a6"	"BusinessObject"	"Garantie (OM)"	""	""
+"id-c0d131b769de44668e298d31e86a89f8"	"BusinessObject"	"Objets métiers"	"Les objets métiers et leurs fonction élémentaires sont les éléments les plus stables du SI. 
+Un objet métier est un objet cœur de métier, c’est-à-dire que l’entreprise doit le gérer pour faire son métier.
+Un objet métier a donc un identifiant et on gère son cycle de vie (successions d’états de la création à la suppression de l’objet).
+Un objet métier a des relations avec d’autres objets métiers.
+Un objet métier peut se décomposer en entités.
+Les objets métiers ont des relations entre eux
+Chaque entité porte les caractéristiques (attributs) de l’objet.
+"	""
+"id-caf35000045b4fa9890ddbc683c08ab8"	"BusinessObject"	"Retours expérience Cohérence"	"Projet origine de la remarque 
+Pb remonté Pondération 
+Pistes d'amélioration 
+Porteur 
+Livrable attendu 
+Gains espérés 
+Renoncements
+"	""
+"id-eb86f66f6e974cb58e5e3a6e31b40ae3"	"BusinessObject"	"Règles de gestion"	"Les objets métiers et leurs fonction élémentaires sont les éléments les plus stables du SI. "	""
+"id-96b5ac202201498cbd9d09a392ddf730"	"BusinessProcess"	"Actes de SAV"	"Un acte de SAV est une opération réalisée sur un produit souscrit par un client, donc après la vente. 
+L’acte peut être réalisé à la demande du client (ex : remboursement anticipé) ou à la demande de la banque (remboursement à l’échéance), de manière entièrement automatique ou non.
+L’acte peut être définit dans le contrat ou par le service souscrit, on parle d’acte contractuel et dans ce cas il ne modifie pas le contrat (ex : pause échéance), ou être non contractuel et dans ce cas il modifie le contrat dans la plupart des cas (ex : désolidarisation des emprunteurs), voir il est définit dans le contrat et modifie le contrat (ex : remboursement anticipé total).
+
+Les actes de SAV sont les actes qui rendent un service au client, qui ont un impact pour le client, sont exclus les opérations purement internes de type comptabilité ou reporting.
+
+La réalisation d’un acte de SAV est un processus avec plus ou moins d’étapes qui doit être piloté jusqu’à la fin de son exécution.
+Les actes doivent être historisés jusqu’à au moins la fin du contrat, modulo les exigences règlementaires.
+Certains actes sont annulables après avoir été réalisés.
+
+
+"	""
+"id-940e500a72254a868debe6659fd8b154"	"BusinessProcess"	"Chantiers"	"Prémices – Crédits amortissables simples Entreprises
+Modernisation technique SimulCA
+Description des garanties 
+Pilotage des Parcours et Gestion des activités 
+Actes de SAV Crédits – Edition TA
+Parcours Découverte Habitat
+Espace Collaborateur Mon Projet Immo
+Dé commissionnement des composants non utilisés
+Optimisation accès à Start depuis l’Open
+
+
+Structure Teams :
+04 - 01 - Pilotage Parcours et Gestionnaire des activités
+04 - 02 - Garanties
+04 - 03 - Initier projet
+04 - 04 - Actes de SAV crédits
+04 - 05 - Mon espace projet
+04 - 06 - Parcours Découverte Habitat
+Structure :
+01 - Etude d'opportunité
+02 - Cadrage
+03 - Fabrication
+04 - Déploiement
+05 - Décomissionnement
+06 - UX - UI""
+"	""
+"id-91b69708e7054be1877f9a1e75067f1f"	"BusinessProcess"	"Cycle de vie"	""	""
+"id-0574df2db600495d8b84c9fde18fcd7b"	"BusinessProcess"	"Découverte Habitat"	""	""
+"id-9c083b418e3e46ae9aca4f3cd64f43b8"	"BusinessProcess"	"Orchestration"	""	""
+"id-a174628b087446c59c8fe82b188a18cb"	"BusinessProcess"	"Parcours"	""	""
+"id-41586de9c3864eae8ffa32cee8cc090a"	"BusinessProcess"	"Processus crédits "	""	""
+"id-c593327bebca488584ab26cf969298ed"	"BusinessRole"	"Cellule Coéhrence"	""	""
+"id-eab68f3c151b4478b9fe7ac407c827bb"	"BusinessRole"	"Comité de pilotage"	""	""
+"id-9d6f11b7ab384c72850fea61a4aabe21"	"BusinessRole"	"Conseil de surveillance"	""	""
+"id-eab0dd6c658a46e6baf2d9232c8a07b2"	"BusinessRole"	"CoreTeam"	""	""
+"id-772b2b24a9ad444b92d4f42028786e71"	"BusinessRole"	"Domaines fonctionnels crédit"	""	""
+"id-62278c7e91f641e29fbcc9d8815074e3"	"BusinessRole"	"Squads"	""	""
+"id-71bc865187014a92b92d5deee3153afc"	"BusinessService"	"Domaine"	""	""
+"id-63ae76e0916d4156a3bce3b65e28cabe"	"BusinessService"	"Habilitation"	""	""
+"id-c2b1675fad364979a8275b82ae1d94a7"	"BusinessService"	"Persistance"	""	""
+"id-63c602303dd841c2a552157ae6acae20"	"Product"	"Actes de Gestion/SAV"	""	""
+"id-044f0b14ce0744068da5b552fe68c35d"	"Product"	"Actes SAV crédit amortissable entreprise"	""	""
+"id-509ce33862804dc6b237914984a2bbfd"	"Product"	"Cadre Architecture"	"Ouvert
+Orienté client
+Evenementiel
+Modulaire
+Cloud
+Efficient
+
+
+Définir le cadre d‘architecture fonctionnelle et applicative du SI crédits : cadre des processus, habilitation, interaction inter produits…
+Cadre d’urbanisation Globale
+- Cadre des processus, domaines, objets métier
+- Définition des Produits Crédits
+- Exemple de cadre d’urbanisation / Garantie
+
+Habilitation
+- Gestion des habilitations
+
+"	""
+"id-0c6b2c2e3d834a4eb521cad7e669e1ee"	"Product"	"Cadre moderisation de Green"	""	""
+"id-5fb4bf981d67428dbbdc66f2d63cc1bf"	"Product"	"Cadre urbanisation fonctionnel"	""	""
+"id-23d4eb100b1447218fa97106ef36985b"	"Product"	"Crédit - Gestion & SAV"	""	""
+"id-5c3fcb831abe49d98f3acd4eb2134554"	"Product"	"Crédits"	""	""
+"id-b8d6711a9b7b4942951d74084ac7bbdb"	"Product"	"Démarche Frbrication"	""	""
+"id-93804103980e4913a72fa64d56a4156f"	"Product"	"EPS (OM) "	""	""
+"id-6dac7ffdc0634719985749291c1c5474"	"Product"	"Guide modernisation"	"Guide de modernisation
+Comprendre  : le cadre d’urbanisation
+Organiser : moderniser dans le cadre normatif
+Architecture : savoir détailler les couches
+Référencer : cataloguer les éléments
+Concevoir : concevoir un parcours
+Fabriquer : normes et standards
+Estimer  : évaluer l’effort
+=> Référence aux autres documents de « Cohérence »
+
+Porteurs :
+Emmanuel
+Renaud
+Myriam
+Moufida
+Maxime
+
+"	""
+"id-42fa2f9ed69a45fb83f332d7238c1647"	"Product"	"Habilitation SI Crédits"	""	""
+"id-21c9d993ddb9420298082480b35afc1e"	"Product"	"Ligne de Crédit (OM)"	""	""
+"id-55996111cf9b4900af15d04d1c2713e3"	"Product"	"Livrables Cohérence"	"
+
+Définir le cadre d‘architecture fonctionnelle et applicative du SI crédits : cadre des processus, habilitation, interaction inter produits…
+Cadre d’urbanisation Globale
+- Cadre des processus, domaines, objets métier
+- Définition des Produits Crédits
+- Exemple de cadre d’urbanisation / Garantie
+
+Habilitation
+- Gestion des habilitations
+
+"	""
+"id-48592e1cc8114103a6525743aa15901b"	"Product"	"Moteurs Green"	""	""
+"id-7e250d92ea04423bae8d7ebd86defe21"	"Product"	"Normes Host et Open"	"Normes Host : 
+- Suivi d’ une transaction et définition de la transaction 
+- Gestion des traces et log (mainframe)
+- Gestion des erreurs 
+
+
+Normes open
+- Suivi d’ une transaction et définition de la transaction 
+- Gestion des traces et log (OPEN) et erreur
+- Contrôle de surface et SRVF
+
+"	""
+"id-d66cac868cef422b92c91d3b75f71faf"	"Product"	"Parcours & navigation"	"Ce que voit le client 
+Mobile / Web / Agence"	""
+"id-21e79db30ae84473b1ec7682b4bd4cea"	"Product"	"PIAF"	""	""
+"id-9bc4553f320e43589f6b49fba1de8f3a"	"Product"	"Pilotage processus "	"orchestration d’objets métiers
+""Le processus : ce qu’on fait client et non client""
+"	""
+"id-7ddcdd54471149c7b66a7f7716900309"	"Product"	"Produits"	""	""
+"id-5b1e0e8701df450ab60b6f35577d43f3"	"Product"	"Produits fonctions"	""	""
+"id-9e56ef4a9cc449f999abe84cab7c2bd6"	"Product"	"Produits référents"	""	""
+"id-ecc91cd8f1a14bd4a9fcf6e1238821cf"	"Product"	"Produits échange"	""	""
+"id-373801a81d694f2d8f0920ac01ef241e"	"Product"	"Préconisation Habilitation"	""	""
+"id-e7ef5a20cfa84e62b77bea1a27ab80f2"	"Product"	"Prêt (OM)"	""	""
+"id-5d3b213141be41fc8a2d16dcfa5a74b9"	"Product"	"Prêt de devise (OM) "	""	""
+"id-abe7ed4a3dd34298bdef8e094b5bc6e8"	"Product"	"Règles et normes"	""	""
+"id-fd15e0161ae946f7820f4bc8f65348ce"	"Product"	"Référentiel"	"
+
+Définir le cadre d‘architecture fonctionnelle et applicative du SI crédits : cadre des processus, habilitation, interaction inter produits…
+Cadre d’urbanisation Globale
+- Cadre des processus, domaines, objets métier
+- Définition des Produits Crédits
+- Exemple de cadre d’urbanisation / Garantie
+
+Habilitation
+- Gestion des habilitations
+
+"	""
+"id-659a42596fc84bf5951cdb6656e63909"	"Product"	"SAV Crédit Conso CA-CF (DigiConso/Carmin)"	""	""
+"id-d0c5ff1dde9948739e349dec3b7287eb"	"Product"	"SAV Crédit Conso CR (GREEN)"	""	""
+"id-0efa36e5d730426e8f470bc9e0bc763d"	"Product"	"SAV Moteur"	""	""
+"id-f5952742ef6544809fbb85c629a0d5d0"	"Product"	"Vente Crédit Conso CA-CF (DigiConso/Carmin)"	""	""
+"id-55227242ec2f45e9b5fc06efe2af1777"	"Product"	"Vente Crédit Conso CR (GREEN)"	""	""
+"id-b287ab2b3c8a4efea3ae5c81ca06ec14"	"Representation"	"Cartographie GreenWeb"	""	""
+"id-235413ef8b12414fa0e797c58fca6c8e"	"Representation"	"Catégories de SAV"	"Les actes sont regroupables en famille d’actes selon la nature des traitements nécessaires afin de mutualiser certains traitements (vision architecture). Les familles d’actes regroupent des actes de même nature mais qui ont des variantes de traitement et de valeur pour le client.
+
+Familles d’actes de SAV (hors EPS) : 
+Utilisation du service souscrit : dans le cas des crédits il s’agit d’obtenir les fonds (sauf EPS)
+Remboursement à l’échéance 
+Editions TA, décomptes, …
+Modifications d’échéance
+Modification de durée
+Modification de taux
+Modification de compte payeur 
+Modification de l’ADE
+Modification d’une garantie
+Modification d’emprunteur
+Remboursement anticipé
+Restructuration de crédit
+Fin de crédit
+Renouvellement
+"	""
+"id-f1cf4496d3444c26ab4a6f3155153307"	"Representation"	"Type de crédit"	""	""
+"id-da3846a7b092426f8c3105406cabbc06"	"ApplicationComponent"	"Applications"	""	""
+"id-63f35fb57072462ba36ab0ecfcc4ad5e"	"ApplicationComponent"	"Autres SIs"	""	""
+"id-98ffe503b461477db1c9e67c2af3817a"	"ApplicationComponent"	"Decap"	"SimulCa, Decap et Polygone gèrent des proposition de financement
+"	""
+"id-1bce1eb70d0549cab3900c326dcb038b"	"ApplicationComponent"	"GDA"	""	""
+"id-a8c18f085900491ebe2390ea42dcb9a7"	"ApplicationComponent"	"GECR"	"Afin de faciliter l’intégration du progiciel green dans différents SIs il a été conçu une brique d’intégration appelée GECR. Cette brique est une façade 
+"	""
+"id-93e1ecb5c1d04cfa86b4d51b5fdcbdcd"	"ApplicationComponent"	"Green (moteur)"	"Green fonctionnant comme un progiciel il a son propre système de gestion des habilitations et dispose de son propre référentiel d’agents.
+
+Green n’est pas disponible en 24/7, pendant la nuit applicative certains batchs bloquent les accès TP en écriture et/ou en lecture, et il y a une interruption de 2h le dimanche (préciser).
+Globalement Green est susceptible de n’être pas accessible entre 20h30 et 2h mais cette indisponibilité est à étudier au cas par cas selon les actes (certains actes sont traités en différé).
+Il serait à étudier de gérer une demande pendant l’indisponibilité de green et de la traiter en différé lors de la reprise de green.
+
+Green gère un objet proposition de financement (Opération) et des crédits en instruction
+L’opération historiquement correspond à la proposition
+C’est aussi l’objet qui matérialise un financement multi-prêts dont les ^rêts fonctionnent de manière groupée (habitat)
+Green instruction gère des crédits génériques et donc complexes (A702 220 colonnes !)
+
+Green gère des crédits en instruction et des crédits en gestion dans des tables différentes mais avec des accès croisés
+
+Point à préciser : quelle granularité d’exposition en instruction et en gestion ?
+Pas de sous-type en instruction ?
+Sous-type en gestion ?
+"	""
+"id-55d4fce991d448baac1dac9e99747086"	"ApplicationComponent"	"NMB"	""	""
+"id-7d8f7b0994b544a28842e8d5059f7f20"	"ApplicationComponent"	"NPC"	""	""
+"id-e770e398d4304174be7a14304ddd284c"	"ApplicationComponent"	"PCH"	""	""
+"id-8ab8c4d1b02749bbafab412449243712"	"ApplicationComponent"	"Polygone"	"SimulCa, Decap et Polygone gèrent des proposition de financement
+"	""
+"id-14551d19b5f849b68fe7a8fa00d450d3"	"ApplicationComponent"	"Portail collaborateurs"	""	""
+"id-82dbdb7452554d5fa6e20d23924b2a9c"	"ApplicationComponent"	"PP"	""	""
+"id-6faf73344ff9469bae2176ca3fa0a517"	"ApplicationComponent"	"PUC"	""	""
+"id-d01d9829b6c44350a7c881703eea0189"	"ApplicationComponent"	"SIAM"	""	""
+"id-5739503dde584b0fb9589d42dfa1b38a"	"ApplicationComponent"	"Simul CA"	"SimulCa, Decap et Polygone gèrent des propositions de financement
+"	""
+"id-5779d14c82c5467aa43645a51c8a5e10"	"ApplicationFunction"	"Menus"	""	""
+"id-6cdc2de9365a4918a85c18f2f8d65138"	"ApplicationInterface"	"GreenWeb"	"Actuellement il y a majoritairement des parcours collaborateurs qui sont dans la WebApp GreenWeb (1300 écrans) et pour l’habitat dans PCH et SimulCA (1200 écrans).
+"	""
+"id-5916a893d5b04b79ba7f024ff0acb72c"	"ApplicationInterface"	"IHM Light"	""	""
+"id-9cf4ac0d6da64c0e88648b5f687e47e1"	"ApplicationService"	"Base NoSQL"	""	""
+"id-5c7f48017f7e4e7c860d3638278e7f96"	"Assessment"	"Prévenir l'obsolescence"	""	""
+"id-a32a243669664829b8bdae126d36e831"	"Goal"	"Rationnaliser le patrimoine"	""	""
+"id-cb22e0f879b14cc9904fdca52a37a02b"	"Principle"	"Parcours client/collab sans couture tout marché"	""	""
